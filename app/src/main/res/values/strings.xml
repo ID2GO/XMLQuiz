@@ -11,7 +11,7 @@
     <string name="Q2">Q2: What is the name for the way compounded words are written in Java? (Only one answer can be selected)</string>
     <string name="incorrect">PascalCase</string>
     <string name="correct">camelCase</string>
-    <string name="Q3">Q3 What is the meaning of the abreviation XML? Enter your answer in the textfield below.</string>
+    <string name="Q3">Q3 What is the meaning of the abbreviation XML? Enter your answer in the textfield below.</string>
     <string name="inputText">Write here your answer</string>
     <string name="Q4">Q4: Which of the following names are valid views in XML? (Multiple answers can be selected, if you like)</string>
     <string name="q4_A">A: ImageView</string>
@@ -21,40 +21,36 @@
     <string name="summaryText">Summary</string>
     <string name="Check_Answers">Check Answers</string>
     <string name="Submit_Answers">Submit Answers</string>
-    <!-- Message to let the user know his score in the format of "You scored 4 out of 6" -->
-    <string name="toast_message">You scored <xliff:g example="4"> %s</xliff:g> out of 6</string>
+    <!-- Message to let the user know his score in the format of "You scored 4 out of 4" -->
+    <string name="toast_message">You scored <xliff:g example="4"> %s</xliff:g> out of 4</string>
 
 
-    <!--
-        Whipped cream topping for the order summary. It will be shown in the format of
-        "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
-      -->
     <string name="collection_of_points">Point count: </string>
-    <!--xliff:g id="" example="10"> </xliff:g> out of 6</string>-->
 
 
-    <string name="answer_summary">Answers given:
-        <xliff:g example="Summary" id=""> </xliff:g></string>
+    <string name="answer_summary">Answers given: <xliff:g example="Summary" id=""> </xliff:g></string>
 
     <!--Checkboxes-->
-    <string name="answer_summary_q1_1">You selected answer Q1_1:  <xliff:g example="true" id="hasAnswerQ1_1"> </xliff:g></string>
-    <string name="answer_summary_q1_2">You selected answer Q1_2:  <xliff:g example="true" id="hasAnswerQ1_2"> </xliff:g></string>
-    <string name="answer_summary_q1_3">You selected answer Q1_3:  <xliff:g example="true" id="hasAnswerQ1_3"> </xliff:g></string>
+    <string name="answer_summary_q1_1">You selected answer Q1_1 as:  <xliff:g example="true" id="hasAnswerQ1_1"> </xliff:g></string>
+    <string name="answer_summary_q1_2">You selected answer Q1_2 as:  <xliff:g example="true" id="hasAnswerQ1_2"> </xliff:g></string>
+    <string name="answer_summary_q1_3">You selected answer Q1_3 as:  <xliff:g example="true" id="hasAnswerQ1_3"> </xliff:g></string>
 
     <!--Radiobuttons-->
-    <string name="correct_selection">You selected: <xliff:g example="true" id=""> </xliff:g> </string>
+    <string name="pascal_case">" PascalCase "</string>
+    <string name="camel_case">" camelCase "</string>
+    <string name="button_selection">You selected: </string>
 
     <!--Textinput -->
     <string name="text_input">You wrote: <xliff:g example="Amy" id="ASTI"> </xliff:g></string>
 
     <!--Checkboxes-->
-    <!--
-    Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
-    user's name. [CHAR LIMIT=20]
-    -->
-    <string name="answer_summary_q4_1">You selected answer Q4_1:  <xliff:g example="true" id="hasAnswerQ4_1"> </xliff:g></string>
-    <string name="answer_summary_q4_2">You selected answer Q4_2:  <xliff:g example="true" id="hasAnswerQ4_2"> </xliff:g></string>
-    <string name="answer_summary_q4_3">You selected answer Q4_3:  <xliff:g example="true" id="hasAnswerQ4_3"> </xliff:g></string>
 
+    <string name="answer_summary_q4_1">You selected answer Q4_1 as:  <xliff:g example="true" id="hasAnswerQ4_1"> </xliff:g></string>
+    <string name="answer_summary_q4_2">You selected answer Q4_2 as:  <xliff:g example="true" id="hasAnswerQ4_2"> </xliff:g></string>
+    <string name="answer_summary_q4_3">You selected answer Q4_3 as:  <xliff:g example="true" id="hasAnswerQ4_3"> </xliff:g></string>
+
+    <!--displayPoints Method-->
+    <string name="total_score">"Your total score out of 4: "<xliff:g example="true" id="">
+    </xliff:g> </string>
 
 </resources>
